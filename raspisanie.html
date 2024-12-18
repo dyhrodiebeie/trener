@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание - FitZone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">FitZone</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="raspisanie.html" class="nav-link active">Расписание</a></li>
+                <li class="nav-item"><a href="trenera.html" class="nav-link">Тренеры</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="schedule-container">
+        <h1>Расписание тренеровок</h1>
+        <div class="schedule-table">
+            <div class="schedule-header">
+                <div class="time-column">Время</div>
+                <div class="day-column">ПН 09.12</div>
+                <div class="day-column">ВТ 10.12</div>
+                <div class="day-column">СР 11.12</div>
+                <div class="day-column">ЧТ 12.12</div>
+                <div class="day-column">ПТ 13.12</div>
+                <div class="day-column">СБ 14.12</div>
+                <div class="day-column">ВС 15.12</div>
+            </div>
+            <div class="schedule-content">
+                <!-- Schedule content will be populated by JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FitZone</h3>
+                <p>Ваш путь к здоровому образу жизни начинается здесь</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Навигация</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="raspisanie.html">Расписание</a></li>
+                    <li><a href="trenera.html">Тренеры</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</p>
+                <p><i class="fas fa-envelope"></i> info@fitzone.ru</p>
+                <p><i class="fas fa-map-marker-alt"></i> Адрес: ул. Примерная, 123</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FitZone. Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="schedule.js"></script>
+    <script src="common.js"></script>
+</body>
+</html>
